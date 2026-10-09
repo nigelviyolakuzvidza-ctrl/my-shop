@@ -53,7 +53,8 @@ React was used to build the application interface and manage component state, in
 The application uses two main request flows: one for delivering the frontend and another for retrieving product data.
 
 ## AWS Architecture
-![AWS Architecture Diagram](images/aws-architecture.png)
+
+![AWS Architecture Diagram](https://github.com/nigelviyolakuzvidza-ctrl/my-shop/blob/main/images/aws-architecture.png)
 
 ### 1. Frontend Delivery
 The frontend is built into static production files and stored in a private Amazon S3 bucket.
