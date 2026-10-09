@@ -54,7 +54,7 @@ The application uses two main request flows: one for delivering the frontend and
 
 ## AWS Architecture
 
-![AWS Architecture Diagram](https://github.com/nigelviyolakuzvidza-ctrl/my-shop/blob/main/images/aws-architecture.png)
+![AWS Architecture Diagram](https://raw.githubusercontent.com/nigelviyolakuzvidza-ctrl/my-shop/main/images/aws-architecture.png)
 
 ### 1. Frontend Delivery
 The frontend is built into static production files and stored in a private Amazon S3 bucket.
