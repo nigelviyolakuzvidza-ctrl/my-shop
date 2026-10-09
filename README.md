@@ -8,8 +8,6 @@ The project demonstrates how to deploy a frontend application to AWS, deliver st
 
 The aim of this project is to develop practical cloud computing skills by building, deploying, documenting and improving a working application.
 
-Live Demo: https://d36aig33g6cx04.cloudfront.net
-
 ## Application Screenshots
 
 ### Shop Homepage
