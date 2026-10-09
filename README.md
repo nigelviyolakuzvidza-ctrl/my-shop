@@ -117,32 +117,40 @@ The deployment process involved building the frontend locally and hosting the re
 8. Configured CORS to allow requests from the deployed frontend.
 9. Tested the deployed website and API endpoint.
 
-# Deployment Evidence
-Amazon S3
-## Amazon S3 Deployment
-![Amazon S3 Deployment](images/s3-deployment.png)
-Amazon CloudFront
-## Amazon CloudFront
-![CloudFront Distribution](images/cloudfront-distribution.png)
-Amazon API Gateway
-## Amazon API Gateway
-![API Gateway Route](images/api-gateway-route.png)
-AWS Lambda
-### AWS Lambda
+## AWS Deployment Evidence
 
-![AWS Lambda Function](images/lambda-function.png)
+### Amazon S3
 
+![Amazon S3 Deployment](image/s3-deployment.png)
 
-Future Improvements
+### Amazon CloudFront
+
+![CloudFront Distribution](image/cloudfront-distribution.png)
+
+### Amazon API Gateway
+
+![API Gateway GET Products Route](image/api-gateway-route.png)
+
+### AWS Lambda Function
+
+![Lambda Function Overview](image/lambda-function.png)
+
+### Lambda Test Execution
+
+![Lambda Test Execution](image/lambda-test.png)
+
+## Future Improvements
+
 Potential improvements include:
-Store product information in Amazon DynamoDB instead of defining it directly in Lambda.
-Automate builds and deployments using GitHub Actions.
-Introduce infrastructure as code using AWS SAM, AWS CDK, or Terraform.
-Add structured logging and monitoring with Amazon CloudWatch.
-Add automated tests and deployment validation.
-Implement a more complete checkout flow and additional backend functionality.
+- Store product information in Amazon DynamoDB instead of defining it directly in Lambda.
+- Automate builds and deployments using GitHub Actions.
+- Introduce infrastructure as code using AWS SAM, AWS CDK, or Terraform.
+- Add structured logging and monitoring with Amazon CloudWatch.
+- Add automated tests and deployment validation.
+- Implement a more complete checkout flow and additional backend functionality.
 
-Project Status
+## Project Status
+
 The core frontend and AWS hosting components have been configured, and the application has been deployed. The serverless API is integrated with the frontend.
 Further documentation, testing and enhancements will be completed as the project develops.
 This project is part of my ongoing development of practical AWS and cloud architecture skills.
