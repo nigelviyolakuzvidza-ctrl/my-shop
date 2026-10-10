@@ -58,9 +58,10 @@ nav a {
   background-color: #555;
 }
 .product-card img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 200px;
+  height: 160px;
+  object-fit: contain;
   border-radius: 8px;
 }
 nav button {
@@ -81,11 +82,11 @@ nav button:hover {
   margin: 0 auto;
   text-align: center;
 }
-
 .product-details img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  object-fit: contain;
   border-radius: 8px;
 }
 .product-details {

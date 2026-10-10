@@ -1,0 +1,30 @@
+const products = [
+  {
+    id: 1,
+    name: 'Wireless Headphones',
+    price: 49.99,
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e'
+  },
+  {
+    id: 2,
+    name: 'Bluetooth Speaker',
+    price: 29.99,
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1'
+  },
+  {
+    id: 3,
+    name: 'USB-C Charger',
+    price: 19.99,
+    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0'
+  }
+]
+
+export const handler = async () => {
+  return {
+    statusCode: 200,
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(products)
+  }
+}
