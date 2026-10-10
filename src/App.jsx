@@ -11,7 +11,7 @@ function App() {
   localStorage.setItem('basket', JSON.stringify(basket))
 }, [basket])
 useEffect(() => {
-  fetch('http://localhost:3000/products')
+fetch('https://x6vdt6btc5.execute-api.eu-west-2.amazonaws.com/products')
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load products')
