@@ -25,7 +25,7 @@ function App() {
 
   // Fetch products from AWS API Gateway
  useEffect(() => {
-  fetch('https://x6vdt6btc5.execute-api.eu-west-2.amazonaws.com/products')
+  fetch(`${import.meta.env.VITE_API_URL}/products`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load products')
